@@ -1,0 +1,21 @@
+
+public class Main {
+
+    public static void main(String[] args) {
+	String[] dick1 = {"danuk"
+    };
+        String[] klichka = {"robot dolboeb","daun", "rakovo bolnoi","spidoznui virodok", "mat shalava"};
+
+        String[] reputacija = {"opushenec","crasavec", "norm chel"};
+
+
+
+        int chislo1 = (int) (Math.random() * dick1.length);
+        int chislo2 = (int) (Math.random() * klichka.length);
+        int chislo3 = (int) (Math.random() * reputacija.length);
+
+            String opusanie = dick1[chislo1] + " " + klichka[chislo2]+ " " + reputacija[chislo3];
+        int x = (int) 26.9;
+        System.out.println(opusanie +dick1.length + x);
+	}
+}
